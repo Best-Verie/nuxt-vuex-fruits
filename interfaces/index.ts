@@ -1,28 +1,14 @@
-interface Projects {
-  [key: number]: Project;
+interface Fruits {
+  [key: number]: Fruits;
 }
 
-interface Investor {
-  id?: number;
-  firstName: string;
-  lastName: string;
-  email: string;
-}
-
-interface Project {
-  id?: string;
-  projectName: string;
-  startDate: Date | string;
-  targetInvestment: string;
-  investors?: Investor[];
-}
 interface Response {
   message?: string;
   status?: number;
 }
 
-export interface ProjectState {
-  projects: Projects;
+export interface FruitState {
+  Fruits: Fruits;
   errors: Response;
-  currentProject: Project;
+  currentFruits:FruitState;
 }

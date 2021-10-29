@@ -1,5 +1,5 @@
 <template>
-  <Summary />
+<Fruits/>
 </template>
 
 <script lang="ts">
